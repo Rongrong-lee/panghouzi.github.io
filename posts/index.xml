@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on monkey_Lee</title>
+    <link>https://panghouzi.github.io/posts/</link>
+    <description>Recent content in Posts on monkey_Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 17 Jan 2020 14:23:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://panghouzi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo博客的搭建</title>
+      <link>https://panghouzi.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Fri, 17 Jan 2020 14:23:37 +0800</pubDate>
+      
+      <guid>https://panghouzi.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/</guid>
+      <description>安装 hugo mac 打开 item 或者终端，输入命令行
+ls ~ brew install hugo  完成后，执行
+hugo version  可以查看 hugo 的版本以及是否安装成功
+ 创建以一个新hugo的网址，必须加一个后缀用来区分后面的另一个仓库 hugo new site 仓库名.github.io-creator(一般是固定的)    添加主题
+cd 仓库名.github.io-creator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml   增加新的内容
+hugo new posts/DDDDDD(可以自己命名).md   执行命令行后自动转入vscode
+code .    注意vscode右下角文本需要调成Markdown模式如图     如图右侧contents/posts下的文件鼠标右键用终端打开   将true去掉变成false
+  启动hugo服务器</description>
+    </item>
+    
+  </channel>
+</rss>
